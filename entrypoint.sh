@@ -1,6 +1,6 @@
 #!/bin/bash
 
-START_DIR="${START_DIR:-/home/coder/workspace}"
+START_DIR="${START_DIR:-/home/root/workspace}"
 
 PREFIX="deploy-code-server"
 
