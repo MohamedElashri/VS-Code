@@ -2,7 +2,7 @@
 FROM codercom/code-server:3.10.2
 LABEL maintainer="Mohamed Elashri <muhammadelashri@gmail.com>"
 
-USER coder
+USER root
 
 # Use bash shell
 ENV SHELL=/bin/bash
