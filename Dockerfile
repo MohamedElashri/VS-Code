@@ -38,7 +38,7 @@ RUN code-server --install-extension eamodio.gitlens \
  && code-server --install-extension sourcery.sourcery \
  && code-server --install-extension julialang.language-julia \
  && code-server --install-extension albertopdrf.root-file-viewer \
- && code-server --install-extension ms-azuretools.vscode-docker \
+ && code-server --install-extension ms-azuretools.vscode-docker 
 
 # Port
 ENV PORT=8443
