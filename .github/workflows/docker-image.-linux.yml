@@ -16,4 +16,4 @@ jobs:
     - name: Build the Docker image
       run: |
          cd linux-server
-         docker build . --file Dockerfile --tag VS-Code-docker:$(date +%s)
+         docker build . --file Dockerfile --tag vs-code-docker:$(date +%s)
