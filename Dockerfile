@@ -35,7 +35,6 @@ RUN code-server --install-extension eamodio.gitlens \
  && code-server --install-extension James-Yu.latex-workshop \
  && code-server --install-extension danielpinto8zz6.c-cpp-compile-run \
  && code-server --install-extension codezombiech.gitignore \
- && code-server --install-extension albertopdrf.root-file-viewer \
  && code-server --install-extension ms-azuretools.vscode-docker 
 
 # Port
