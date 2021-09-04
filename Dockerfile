@@ -1,5 +1,5 @@
 # Start from the code-server Debian base image
-FROM codercom/code-server:3.10.2
+FROM codercom/code-server:3.11.1
 LABEL maintainer="Mohamed Elashri <muhammadelashri@gmail.com>"
 
 USER root
