@@ -15,4 +15,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: |
-         docker build . --file Dockerfile --tag snibox-docker:$(date +%s)
+         docker build . --file Dockerfile --tag VS-Code-docker:$(date +%s)
