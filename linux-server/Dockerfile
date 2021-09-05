@@ -36,7 +36,7 @@ RUN code-server --install-extension eamodio.gitlens \
  && code-server --install-extension James-Yu.latex-workshop \
  && code-server --install-extension danielpinto8zz6.c-cpp-compile-run \
  && code-server --install-extension codezombiech.gitignore \
- && code-server --install-extension https://github.com/MohamedElashri/VS-Code/blob/main/extensions/muhammadelashri.FHiCL-0.0.4.vsix \
+ && code-server --install-extension ./extensions/muhammadelashri.FHiCL-0.0.4.vsix \
  && code-server --install-extension ms-azuretools.vscode-docker \
 
 # Port
