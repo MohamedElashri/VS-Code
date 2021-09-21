@@ -7,13 +7,13 @@ This is docker container for developing with julia in browser (using code server
 Download the code from Github. Go to the project directory 
 
 ```{bash}
-cd docker-julia
+cd julia
 ```
 
 and build the image:
 
 ```{bash}
-docker build -t image-julia . 
+docker build -t code-julia . 
 ```
 
 ### Custom Project / Manifest
