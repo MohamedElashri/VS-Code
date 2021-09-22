@@ -28,7 +28,7 @@ docker build --build-arg JULIA_VERSION=1.5.3 -t code-julia .
 
 ## Usage
 
-By default, `docker-julia` runs on port `3838`. 
+By default, `code-julia` runs on port `3838`. 
 
 ```{bash}
 docker run -d -p 3838:3838 --restart=unless-stopped code-julia
