@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:jammy
 ARG JULIA_VERSION="1.6.0"
 ARG CODE_SERVER="3.12.0"
 
